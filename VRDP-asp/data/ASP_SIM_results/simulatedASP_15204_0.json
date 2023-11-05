@@ -1,0 +1,1 @@
+[{"question": "Which of the following will not happen without the rubber cube?", "q_idx": 12, "obj_removed": [2, "brownrubbercube"], "sim": {"1": 149}, "sim_ASP_col": [{"frame": 27, "objects": [{"color": "green", "material": "metal", "shape": "cube"}, {"color": "purple", "material": "metal", "shape": "cylinder"}]}], "too_early": false}]

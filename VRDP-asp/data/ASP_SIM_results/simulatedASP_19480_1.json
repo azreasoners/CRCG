@@ -1,0 +1,1 @@
+[{"question": "Which event will not happen without the metal cylinder?", "q_idx": 14, "obj_removed": [2, "cyanmetalcylinder"], "sim": {"0": 67, "3": 156}, "sim_ASP_col": [{"frame": 42, "objects": [{"color": "purple", "material": "metal", "shape": "cube"}, {"color": "purple", "material": "rubber", "shape": "cylinder"}]}], "too_early": false}]

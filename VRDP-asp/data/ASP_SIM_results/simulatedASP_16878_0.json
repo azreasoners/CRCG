@@ -1,0 +1,1 @@
+[{"question": "Without the yellow cube, which of the following will happen?", "q_idx": 14, "obj_removed": [1, "yellowmetalcube"], "sim": {"0": 38, "3": 163, "2": 140}, "sim_ASP_col": [{"frame": 85, "objects": [{"color": "gray", "material": "rubber", "shape": "cylinder"}, {"color": "blue", "material": "rubber", "shape": "cylinder"}]}], "too_early": false}]

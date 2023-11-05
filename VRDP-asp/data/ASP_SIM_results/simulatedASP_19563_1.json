@@ -1,0 +1,1 @@
+[{"question": "Which of the following will happen without the metal object?", "q_idx": 14, "obj_removed": [1, "cyanmetalsphere"], "sim": {"0": 38, "2": 40, "3": 68}, "sim_ASP_col": [{"frame": 57, "objects": [{"color": "brown", "material": "rubber", "shape": "sphere"}, {"color": "purple", "material": "rubber", "shape": "cube"}]}], "too_early": false}]

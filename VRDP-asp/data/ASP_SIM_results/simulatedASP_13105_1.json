@@ -1,0 +1,1 @@
+[{"question": "If the green sphere is removed, which event will not happen?", "q_idx": 14, "obj_removed": [1, "greenmetalsphere"], "sim": {"0": 47, "3": 65, "2": 56}, "sim_ASP_col": [{"frame": 60, "objects": [{"color": "blue", "material": "metal", "shape": "cube"}, {"color": "red", "material": "metal", "shape": "cube"}]}], "too_early": false}]

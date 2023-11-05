@@ -1,0 +1,321 @@
+# NSDR + CLEVRER
+
+## Descriptive
+
+(asp-CRCG) ASP-CRCG/NSDR-asp/descriptive$ python run_descriptive.py
+Acc 88.02%: 100%|███████████████████████████████████████████| 5000/5000 [00:33<00:00, 148.65it/s]
+
+(asp-CRCG) ASP-CRCG/NSDR-asp/descriptive$ python run_descriptive.py --IOD
+Acc 95.46%: 100%|████████████████████████████████████████████| 5000/5000 [01:38<00:00, 50.73it/s]
+
+DR-asp/descriptive$ python run_descriptive.py --ASP_PE
+Acc 91.22%: 100%|████████████████████████████████████████████| 5000/5000 [27:42<00:00,  3.01it/s]
+
+(asp-CRCG) ASP-CRCG/NSDR-asp/descriptive$ python run_descriptive.py --IOD --ASP_PE
+Acc 95.62%: 100%|████████████████████████████████████████████| 5000/5000 [48:09<00:00,  1.73it/s]
+
+
+## Explanatory
+
+(asp-CRCG) ASP-CRCG/NSDR-asp/explanatory$ python run_explanatory.py
+Choice 87.19%, Question 79.31%: 100%|███████████████████████| 5000/5000 [00:31<00:00, 161.07it/s]
+
+(asp-CRCG) ASP-CRCG/NSDR-asp/explanatory$ python run_explanatory.py --IOD
+Choice 99.90%, Question 99.68%: 100%|████████████████████████| 5000/5000 [01:30<00:00, 55.29it/s]
+
+(asp-CRCG) ASP-CRCG/NSDR-asp/explanatory$ python run_explanatory.py --ASP_PE
+Choice 92.55%, Question 87.64%: 100%|████████████████████████| 5000/5000 [01:47<00:00, 46.63it/s]
+
+(asp-CRCG) ASP-CRCG/NSDR-asp/explanatory$ python run_explanatory.py --IOD --ASP_PE
+Choice 99.98%, Question 99.94%: 100%|████████████████████████| 5000/5000 [05:26<00:00, 15.31it/s]
+
+(asp-CRCG) ASP-CRCG/NSDR-asp/explanatory$ python run_explanatory.py --ALL
+Choice 99.98%, Question 99.94%: 100%|████████████████████████| 5000/5000 [05:31<00:00, 15.09it/s]
+
+
+## Predictive
+
+(asp-CRCG) ASP-CRCG/NSDR-asp/predictive$ python run_predictive.py
+per choice 83.680067, per questions 70.030925: 100%|████████| 5000/5000 [00:42<00:00, 117.23it/s]
+
+(asp-CRCG) ASP-CRCG/NSDR-asp/predictive$ python run_predictive.py --IOD
+per choice 85.690188, per questions 71.605285: 100%|█████████| 5000/5000 [01:51<00:00, 44.65it/s]
+
+(asp-CRCG) ASP-CRCG/NSDR-asp/predictive$ python run_predictive.py --SPS
+per choice 86.913129, per questions 76.609502: 100%|█████████| 5000/5000 [01:00<00:00, 82.45it/s]
+
+(asp-CRCG) ASP-CRCG/NSDR-asp/predictive$ python run_predictive.py --ASP_PE
+per choice 85.690188, per questions 71.605285: 100%|█████████| 5000/5000 [01:06<00:00, 75.72it/s]
+
+(asp-CRCG) ASP-CRCG/NSDR-asp/predictive$ python run_predictive.py --IOD --SPS
+per choice 89.499578, per questions 79.336520: 100%|█████████| 5000/5000 [02:56<00:00, 28.32it/s]
+
+(asp-CRCG) ASP-CRCG/NSDR-asp/predictive$ python run_predictive.py --SPS --ASP_PE
+per choice 89.120045, per questions 78.718021: 100%|█████████| 5000/5000 [01:23<00:00, 59.80it/s]
+
+(asp-CRCG) ASP-CRCG/NSDR-asp/predictive$ python run_predictive.py --IOD --SPS --ASP_PE
+per choice 89.499578, per questions 79.336520: 100%|█████████| 5000/5000 [04:15<00:00, 19.57it/s]
+
+(asp-CRCG) ASP-CRCG/NSDR-asp/predictive$ python run_predictive.py --ALL
+per choice 89.499578, per questions 79.336520: 100%|█████████| 5000/5000 [04:09<00:00, 20.07it/s]
+
+
+## Counterfactual
+
+(asp-CRCG) ASP-CRCG/NSDR-asp/counterfactual$ python run_counterfactual.py
+per choice 73.982633, per questions 41.551484: 100%|████████| 5000/5000 [00:45<00:00, 110.29it/s]
+============ results ============
+counterfactual accuracy per option: 73.982633 %
+counterfactual accuracy per question: 41.551484 %
+============ results ============
+
+(asp-CRCG) ASP-CRCG/NSDR-asp/counterfactual$ python run_counterfactual.py --IOD
+per choice 75.988624, per questions 43.051538: 100%|█████████| 5000/5000 [01:56<00:00, 43.05it/s]
+============ results ============
+counterfactual accuracy per option: 75.988624 %
+counterfactual accuracy per question: 43.051538 %
+============ results ============
+
+(asp-CRCG) ASP-CRCG/NSDR-asp/counterfactual$ python run_counterfactual.py --ASP_CRCG
+per choice 86.278781, per questions 64.673738: 100%|█████████| 5000/5000 [02:03<00:00, 40.48it/s]
+============ results ============
+counterfactual accuracy per option: 86.278781 %
+counterfactual accuracy per question: 64.673738 %
+============ results ============
+
+(asp-CRCG) ASP-CRCG/NSDR-asp/counterfactual$ python run_counterfactual.py --IOD --ASP_CRCG
+per choice 88.950410, per questions 70.781099: 100%|█████████| 5000/5000 [06:12<00:00, 13.42it/s]
+============ results ============
+counterfactual accuracy per option: 88.950410 %
+counterfactual accuracy per question: 70.781099 %
+============ results ============
+
+(asp-CRCG) ASP-CRCG/NSDR-asp/counterfactual$ python run_counterfactual.py --IOD --ASP_CRCG --SPS
+per choice 91.519167, per questions 75.463409: 100%|█████████| 5000/5000 [13:55<00:00,  5.99it/s]
+============ results ============
+counterfactual accuracy per option: 91.519167 %
+counterfactual accuracy per question: 75.463409 %
+============ results ============
+
+(asp-CRCG) ASP-CRCG/NSDR-asp/counterfactual$ python run_counterfactual.py --IOD --ASP_CRCG --SPS --ASP_PE
+per choice 91.519167, per questions 75.463409: 100%|█████████| 5000/5000 [18:19<00:00,  4.55it/s]
+============ results ============
+counterfactual accuracy per option: 91.519167 %
+counterfactual accuracy per question: 75.463409 %
+============ results ============
+
+(asp-CRCG) ASP-CRCG/NSDR-asp/counterfactual$ python run_counterfactual.py --ALL
+per choice 91.519167, per questions 75.463409: 100%|█████████| 5000/5000 [18:19<00:00,  4.55it/s]
+============ results ============
+counterfactual accuracy per option: 91.519167 %
+counterfactual accuracy per question: 75.463409 %
+============ results ============
+
+
+# VRDP + CLEVRER
+
+## Descriptive
+
+(asp-CRCG) ASP-CRCG/VRDP-asp/descriptive$ python run_descriptive.py
+Acc 93.79%: 100%|███████████████████████████████████████████| 5000/5000 [00:32<00:00, 155.05it/s]
+
+(asp-CRCG) ASP-CRCG/VRDP-asp/descriptive$ python run_descriptive.py --IOD
+Acc 96.64%: 100%|███████████████████████████████████████████| 5000/5000 [00:16<00:00, 297.69it/s]
+
+(asp-CRCG) ASP-CRCG/VRDP-asp/descriptive$ python run_descriptive.py --ASP_PE
+Acc 94.42%: 100%|████████████████████████████████████████████| 5000/5000 [27:57<00:00,  2.98it/s]
+
+(asp-CRCG) ASP-CRCG/VRDP-asp/descriptive$ python run_descriptive.py --IOD --ASP_PE
+Acc 96.71%: 100%|████████████████████████████████████████████| 5000/5000 [27:20<00:00,  3.05it/s]
+
+(asp-CRCG) ASP-CRCG/VRDP-asp/descriptive$ python run_descriptive.py --ALL
+Acc 96.65%: 100%|████████████████████████████████████████████| 5000/5000 [27:42<00:00,  3.01it/s]
+
+## Explanatory
+
+(asp-CRCG) ASP-CRCG/VRDP-asp/explanatory$ python run_explanatory.py
+Choice 92.98%, Question 89.00%: 100%|███████████████████████| 5000/5000 [00:30<00:00, 164.55it/s]
+
+(asp-CRCG) ASP-CRCG/VRDP-asp/explanatory$ python run_explanatory.py --IOD
+Choice 99.28%, Question 98.82%: 100%|███████████████████████| 5000/5000 [00:14<00:00, 335.65it/s]
+
+(asp-CRCG) ASP-CRCG/VRDP-asp/explanatory$ python run_explanatory.py --ASP_PE
+Choice 96.59%, Question 94.38%: 100%|████████████████████████| 5000/5000 [01:47<00:00, 46.52it/s]
+
+(asp-CRCG) ASP-CRCG/VRDP-asp/explanatory$ python run_explanatory.py --IOD --ASP_PE
+Choice 99.98%, Question 99.94%: 100%|████████████████████████| 5000/5000 [01:30<00:00, 55.55it/s]
+
+(asp-CRCG) ASP-CRCG/VRDP-asp/explanatory$ python run_explanatory.py --ALL
+Choice 99.98%, Question 99.94%: 100%|████████████████████████| 5000/5000 [01:30<00:00, 55.44it/s]
+
+## Predictive
+
+(asp-CRCG) ASP-CRCG/VRDP-asp/predictive$ python run_predictive.py
+per choice 95.881361, per questions 91.903289: 100%|████████| 5000/5000 [00:39<00:00, 126.71it/s]
+
+(asp-CRCG) ASP-CRCG/VRDP-asp/predictive$ python run_predictive.py --IOD
+per choice 95.867304, per questions 91.847062: 100%|████████| 5000/5000 [00:33<00:00, 150.48it/s]
+
+(asp-CRCG) ASP-CRCG/VRDP-asp/predictive$ python run_predictive.py --SPS
+per choice 96.429575, per questions 92.943492: 100%|█████████| 5000/5000 [01:00<00:00, 83.19it/s]
+
+(asp-CRCG) ASP-CRCG/VRDP-asp/predictive$ python run_predictive.py --ASP_PE
+per choice 95.881361, per questions 91.903289: 100%|█████████| 5000/5000 [01:02<00:00, 80.07it/s]
+
+(asp-CRCG) ASP-CRCG/VRDP-asp/predictive$ python run_predictive.py --IOD --SPS
+per choice 95.825134, per questions 91.818949: 100%|████████| 5000/5000 [00:48<00:00, 103.38it/s]
+
+(asp-CRCG) ASP-CRCG/VRDP-asp/predictive$ python run_predictive.py --IOD --SPS --ASP_PE
+per choice 95.825134, per questions 91.818949: 100%|█████████| 5000/5000 [01:09<00:00, 72.17it/s]
+
+(asp-CRCG) ASP-CRCG/VRDP-asp/predictive$ python run_predictive.py --ALL
+per choice 95.825134, per questions 91.818949: 100%|█████████| 5000/5000 [01:10<00:00, 70.49it/s]
+
+## Counterfactual
+
+(asp-CRCG) ASP-CRCG/VRDP-asp/counterfactual$ python run_counterfactual.py
+per choice 94.686999, per questions 84.110147: 100%|█████████| 5000/5000 [00:56<00:00, 88.07it/s]
+============ results ============
+counterfactual accuracy per option: 94.686999 %
+counterfactual accuracy per question: 84.110147 %
+============ results ============
+
+(asp-CRCG) ASP-CRCG/VRDP-asp/counterfactual$ python run_counterfactual.py --ASP_CRCG
+per choice 96.163505, per questions 88.128147: 100%|█████████| 5000/5000 [02:18<00:00, 36.22it/s]
+============ results ============
+counterfactual accuracy per option: 96.163505 %
+counterfactual accuracy per question: 88.128147 %
+============ results ============
+
+(asp-CRCG) ASP-CRCG/VRDP-asp/counterfactual$ python run_counterfactual.py --ASP_CRCG_approx
+per choice 95.803455, per questions 87.206686: 100%|██████████| 5000/5000 [03:21<00:00, 24.76it/s]
+============ results ============
+counterfactual accuracy per option: 95.803455 %
+counterfactual accuracy per question: 87.206686 %
+============ results ============
+
+(asp-CRCG) ASP-CRCG/VRDP-asp/counterfactual$ python run_counterfactual.py --IOD
+per choice 94.686999, per questions 84.110147: 100%|█████████| 5000/5000 [02:09<00:00, 38.63it/s]
+============ results ============
+counterfactual accuracy per option: 94.686999 %
+counterfactual accuracy per question: 84.110147 %
+============ results ============
+
+(asp-CRCG) ASP-CRCG/VRDP-asp/counterfactual$ python run_counterfactual.py --ASP_PE
+per choice 94.686999, per questions 84.110147: 100%|█████████| 5000/5000 [02:03<00:00, 40.50it/s]
+============ results ============
+counterfactual accuracy per option: 94.686999 %
+counterfactual accuracy per question: 84.110147 %
+============ results ============
+
+(asp-CRCG) ASP-CRCG/VRDP-asp/counterfactual$ python run_counterfactual.py --ASP_CRCG --IOD
+per choice 97.019757, per questions 90.699668: 100%|█████████| 5000/5000 [06:26<00:00, 12.94it/s]
+============ results ============
+counterfactual accuracy per option: 97.019757 %
+counterfactual accuracy per question: 90.699668 %
+============ results ============
+
+(asp-CRCG) ASP-CRCG/VRDP-asp/counterfactual$ python run_counterfactual.py --ASP_CRCG --ASP_PE
+per choice 96.163505, per questions 88.128147: 100%|█████████| 5000/5000 [03:21<00:00, 24.77it/s]
+============ results ============
+counterfactual accuracy per option: 96.163505 %
+counterfactual accuracy per question: 88.128147 %
+============ results ============
+
+(asp-CRCG) ASP-CRCG/VRDP-asp/counterfactual$ python run_counterfactual.py --IOD --ASP_PE
+per choice 94.686999, per questions 84.110147: 100%|█████████| 5000/5000 [06:14<00:00, 13.34it/s]
+============ results ============
+counterfactual accuracy per option: 94.686999 %
+counterfactual accuracy per question: 84.110147 %
+============ results ============
+
+(asp-CRCG) ASP-CRCG/VRDP-asp/counterfactual$ python run_counterfactual.py --ASP_CRCG --IOD --ASP_PE
+per choice 97.019757, per questions 90.699668: 100%|█████████| 5000/5000 [10:33<00:00,  7.90it/s]
+============ results ============
+counterfactual accuracy per option: 97.019757 %
+counterfactual accuracy per question: 90.699668 %
+============ results ============
+
+(asp-CRCG) ASP-CRCG/VRDP-asp/counterfactual$ python run_counterfactual.py --ALL
+per choice 97.019757, per questions 90.699668: 100%|█████████| 5000/5000 [10:29<00:00,  7.94it/s]
+============ results ============
+counterfactual accuracy per option: 97.019757 %
+counterfactual accuracy per question: 90.699668 %
+============ results ============
+
+
+
+# GPT-x + CRAFT
+
+
+(asp-CRCG) ASP-CRCG/CRAFT-asp$ python run_CRAFT.py
+Acc: 57.6241134751773: 100%|██████████| 57525/57525 [03:39<00:00, 262.15it/s]   
+
+(asp-CRCG) ASP-CRCG/CRAFT-asp$ python run_CRAFT.py --ASP_CRCG
+Acc: 97.96099290780141: 100%|██████████| 57525/57525 [03:39<00:00, 261.74it/s] 
+
+(asp-CRCG) ASP-CRCG/CRAFT-asp$ python run_CRAFT.py --ASP_CRCG_GPT
+Acc: 91.57801418439716: 100%|██████████| 57525/57525 [03:39<00:00, 262.08it/s] 
+
+(asp-CRCG) ASP-CRCG/CRAFT-asp$ python run_CRAFT_ALL.py
+Acc: 52.27858985382631: 100%|██████████| 57525/57525 [03:43<00:00, 257.88it/s]  
+
+(asp-CRCG) ASP-CRCG/CRAFT-asp$ python run_CRAFT_ALL.py --ASP_CRCG
+Acc: 65.31957580968759: 100%|██████████| 57525/57525 [03:40<00:00, 260.81it/s] 
+
+(asp-CRCG) ASP-CRCG/CRAFT-asp$ python run_CRAFT_ALL.py --ASP_CRCG_GPT
+Acc: 63.25594726282603: 100%|██████████| 57525/57525 [03:42<00:00, 258.12it/s]  
+
+(asp-CRCG) ASP-CRCG/CRAFT-asp$ python run_CRAFT.py --hard
+Acc: 53.98671096345515: 100%|██████████| 57525/57525 [02:31<00:00, 378.79it/s]  
+
+(asp-CRCG) ASP-CRCG/CRAFT-asp$ python run_CRAFT.py --hard --ASP_CRCG
+Acc: 99.00332225913621: 100%|██████████| 57525/57525 [02:31<00:00, 378.51it/s] 
+
+(asp-CRCG) ASP-CRCG/CRAFT-asp$ python run_CRAFT.py --hard --ASP_CRCG_GPT
+Acc: 91.69435215946844: 100%|██████████| 57525/57525 [02:39<00:00, 361.59it/s] 
+
+(asp-CRCG) ASP-CRCG/CRAFT-asp$ python run_CRAFT_ALL.py --hard
+Acc: 52.53090052972337: 100%|██████████| 57525/57525 [02:33<00:00, 374.32it/s]  
+
+(asp-CRCG) ASP-CRCG/CRAFT-asp$ python run_CRAFT_ALL.py --hard --ASP_CRCG
+Acc: 68.48145968216598: 100%|██████████| 57525/57525 [02:32<00:00, 378.03it/s]  
+
+(asp-CRCG) ASP-CRCG/CRAFT-asp$ python run_CRAFT_ALL.py --hard --ASP_CRCG_GPT
+Acc: 65.89170100058858: 100%|██████████| 57525/57525 [02:36<00:00, 368.65it/s]  
+
+(asp-CRCG) ASP-CRCG/CRAFT-asp$ python run_CRAFT.py --GPT_model GPT-4
+Acc: 92.55319148936171: 100%|██████████| 57525/57525 [03:36<00:00, 265.69it/s]  
+
+(asp-CRCG) ASP-CRCG/CRAFT-asp$ python run_CRAFT.py --ASP_CRCG --GPT_model GPT-4
+Acc: 97.96099290780141: 100%|██████████| 57525/57525 [03:41<00:00, 259.47it/s] 
+
+(asp-CRCG) ASP-CRCG/CRAFT-asp$ python run_CRAFT.py --ASP_CRCG_GPT --GPT_model GPT-4
+Acc: 92.99645390070921: 100%|██████████| 57525/57525 [03:41<00:00, 260.00it/s] 
+
+(asp-CRCG) ASP-CRCG/CRAFT-asp$ python run_CRAFT_ALL.py --GPT_model GPT-4
+Acc: 77.93063915161937: 100%|██████████| 57525/57525 [03:41<00:00, 259.37it/s] 
+
+(asp-CRCG) ASP-CRCG/CRAFT-asp$ python run_CRAFT_ALL.py --ASP_CRCG --GPT_model GPT-4
+Acc: 79.67899111493264: 100%|██████████| 57525/57525 [03:43<00:00, 257.16it/s] 
+
+(asp-CRCG) ASP-CRCG/CRAFT-asp$ python run_CRAFT_ALL.py --ASP_CRCG_GPT --GPT_model GPT-4
+Acc: 78.07394668959587: 100%|██████████| 57525/57525 [03:41<00:00, 260.05it/s] 
+
+(asp-CRCG) ASP-CRCG/CRAFT-asp$ python run_CRAFT.py --hard --GPT_model GPT-4
+Acc: 92.10963455149502: 100%|██████████| 57525/57525 [02:29<00:00, 385.21it/s] 
+
+(asp-CRCG) ASP-CRCG/CRAFT-asp$ python run_CRAFT.py --hard --ASP_CRCG --GPT_model GPT-4
+Acc: 99.00332225913621: 100%|██████████| 57525/57525 [02:40<00:00, 358.30it/s] 
+
+(asp-CRCG) ASP-CRCG/CRAFT-asp$ python run_CRAFT.py --hard --ASP_CRCG_GPT --GPT_model GPT-4
+Acc: 92.19269102990033: 100%|██████████| 57525/57525 [02:31<00:00, 379.02it/s] 
+
+(asp-CRCG) ASP-CRCG/CRAFT-asp$ python run_CRAFT_ALL.py --hard --GPT_model GPT-4
+Acc: 81.19482048263684: 100%|██████████| 57525/57525 [02:32<00:00, 376.49it/s]  
+
+(asp-CRCG) ASP-CRCG/CRAFT-asp$ python run_CRAFT_ALL.py --hard --ASP_CRCG --GPT_model GPT-4
+Acc: 83.63743378457916: 100%|██████████| 57525/57525 [02:36<00:00, 368.35it/s]  
+
+(asp-CRCG) ASP-CRCG/CRAFT-asp$ python run_CRAFT_ALL.py --hard --ASP_CRCG_GPT --GPT_model GPT-4
+Acc: 81.22424955856386: 100%|██████████| 57525/57525 [02:33<00:00, 375.76it/s]  

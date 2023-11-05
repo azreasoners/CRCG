@@ -1,0 +1,1 @@
+[{"question": "Without the green cylinder, what will not happen?", "q_idx": 13, "obj_removed": [0, "greenrubbercylinder"], "sim": {"1": 37, "3": 56, "2": 78}, "sim_ASP_col": [{"frame": 62, "objects": [{"color": "purple", "material": "rubber", "shape": "cylinder"}, {"color": "gray", "material": "metal", "shape": "cylinder"}]}], "too_early": false}]

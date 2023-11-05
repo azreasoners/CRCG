@@ -1,0 +1,1 @@
+[{"question": "What will happen if the purple object is removed?", "q_idx": 14, "obj_removed": [1, "purplerubbercylinder"], "sim": {"0": 42}, "sim_ASP_col": [], "too_early": false}]

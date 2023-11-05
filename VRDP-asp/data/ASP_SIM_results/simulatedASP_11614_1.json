@@ -1,0 +1,1 @@
+[{"question": "Without the cyan object, which event will happen?", "q_idx": 15, "obj_removed": [1, "cyanmetalsphere"], "sim": {"2": 108, "3": 134, "0": 41}, "sim_ASP_col": [{"frame": 61, "objects": [{"color": "brown", "material": "metal", "shape": "cylinder"}, {"color": "purple", "material": "rubber", "shape": "sphere"}]}], "too_early": false}]

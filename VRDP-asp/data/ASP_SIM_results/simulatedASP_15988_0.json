@@ -1,0 +1,1 @@
+[{"question": "Without the rubber sphere, which of the following will not happen?", "q_idx": 12, "obj_removed": [0, "yellowrubbersphere"], "sim": {"2": 135, "1": 32}, "sim_ASP_col": [{"frame": 164, "objects": [{"color": "purple", "material": "metal", "shape": "sphere"}, {"color": "cyan", "material": "metal", "shape": "sphere"}]}], "too_early": false}]

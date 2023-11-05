@@ -1,0 +1,1 @@
+[{"question": "Which of the following will happen if the yellow cube is removed?", "q_idx": 14, "obj_removed": [0, "yellowrubbercube"], "sim": {"2": 51, "3": 81, "1": 42}, "sim_ASP_col": [{"frame": 60, "objects": [{"color": "green", "material": "rubber", "shape": "sphere"}, {"color": "yellow", "material": "rubber", "shape": "sphere"}]}], "too_early": false}]

@@ -1,0 +1,1 @@
+[{"question": "If the cube is removed, which event will not happen?", "q_idx": 14, "obj_removed": [0, "brownmetalcube"], "sim": {"3": 84, "2": 61, "1": 50}, "sim_ASP_col": [{"frame": 66, "objects": [{"color": "cyan", "material": "rubber", "shape": "cylinder"}, {"color": "cyan", "material": "metal", "shape": "cylinder"}]}], "too_early": false}]

@@ -1,0 +1,1 @@
+[{"question": "What will happen without the gray metal object?", "q_idx": 14, "obj_removed": [1, "graymetalcylinder"], "sim": {"2": 81, "3": 60, "0": 42, "4": 141}, "sim_ASP_col": [{"frame": 131, "objects": [{"color": "red", "material": "metal", "shape": "cylinder"}, {"color": "brown", "material": "rubber", "shape": "cylinder"}]}], "too_early": false}]

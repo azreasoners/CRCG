@@ -1,0 +1,1 @@
+[{"question": "Without the gray sphere, which event will happen?", "q_idx": 14, "obj_removed": [1, "grayrubbersphere"], "sim": {"0": 47, "3": 64, "2": 57}, "sim_ASP_col": [{"frame": 65, "objects": [{"color": "blue", "material": "metal", "shape": "cube"}, {"color": "purple", "material": "metal", "shape": "cube"}]}], "too_early": false}]

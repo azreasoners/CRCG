@@ -1,0 +1,1 @@
+[{"question": "What will happen without the metal sphere?", "q_idx": 14, "obj_removed": [1, "graymetalsphere"], "sim": {"3": 160, "2": 66, "0": 30}, "sim_ASP_col": [{"frame": 61, "objects": [{"color": "gray", "material": "rubber", "shape": "cube"}, {"color": "yellow", "material": "rubber", "shape": "cube"}]}], "too_early": false}]

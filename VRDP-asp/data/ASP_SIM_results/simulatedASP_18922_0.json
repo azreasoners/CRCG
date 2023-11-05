@@ -1,0 +1,1 @@
+[{"question": "Which of the following will happen without the green object?", "q_idx": 12, "obj_removed": [1, "greenmetalcylinder"], "sim": {"0": 25, "2": 132, "3": 150}, "sim_ASP_col": [{"frame": 155, "objects": [{"color": "cyan", "material": "rubber", "shape": "sphere"}, {"color": "red", "material": "metal", "shape": "cylinder"}]}], "too_early": false}]

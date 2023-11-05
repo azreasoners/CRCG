@@ -1,0 +1,1 @@
+[{"question": "What will happen without the green cube?", "q_idx": 15, "obj_removed": [1, "greenmetalcube"], "sim": {"2": 145, "0": 34, "3": 92}, "sim_ASP_col": [{"frame": 85, "objects": [{"color": "green", "material": "rubber", "shape": "cylinder"}, {"color": "yellow", "material": "rubber", "shape": "cube"}]}], "too_early": false}]

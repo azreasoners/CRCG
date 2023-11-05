@@ -1,0 +1,1 @@
+[{"question": "If the gray sphere is removed, which of the following will happen?", "q_idx": 14, "obj_removed": [0, "graymetalsphere"], "sim": {"3": 138, "1": 37, "2": 108}, "sim_ASP_col": [{"frame": 146, "objects": [{"color": "brown", "material": "rubber", "shape": "sphere"}, {"color": "gray", "material": "rubber", "shape": "cube"}]}], "too_early": false}]

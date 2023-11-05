@@ -1,0 +1,1 @@
+[{"question": "Without the yellow object, which event will happen?", "q_idx": 13, "obj_removed": [2, "yellowrubbersphere"], "sim": {"3": 73, "1": 63}, "sim_ASP_col": [{"frame": 39, "objects": [{"color": "brown", "material": "rubber", "shape": "cube"}, {"color": "blue", "material": "metal", "shape": "sphere"}]}], "too_early": false}]

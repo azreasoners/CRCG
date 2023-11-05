@@ -1,0 +1,1 @@
+[{"question": "If the cyan sphere is removed, which of the following will happen?", "q_idx": 14, "obj_removed": [1, "cyanmetalsphere"], "sim": {"3": 105, "2": 67, "0": 37}, "sim_ASP_col": [], "too_early": false}]

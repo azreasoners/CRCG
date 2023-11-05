@@ -1,0 +1,1 @@
+[{"question": "Without the blue sphere, what will not happen?", "q_idx": 14, "obj_removed": [0, "bluerubbersphere"], "sim": {"1": 16, "2": 61, "3": 52}, "sim_ASP_col": [], "too_early": false}]
